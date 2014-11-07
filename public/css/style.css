@@ -1,0 +1,135 @@
+body{
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	padding: 0px;
+	margin: 0px;
+	/** background-image: url('../image/bg-source.jpeg');**/
+}
+a{
+	text-decoration: none;
+}
+
+#index-top-banner{
+	min-height: 60px;
+}
+
+.index-top-nav{
+	min-width: 1024px;
+	width: auto;
+	height: 26px;
+	background: #f2f2f2;
+	border-bottom:1px solid #e5e5e5;
+	color: #999;
+	padding-top: 4px;
+}
+.index-header{
+	min-height: 76px;
+
+}
+.index-menu-nav{
+	border: 0px;
+	min-height: 40px;
+	background-image: none;
+	background-color: #000;
+	backgroud-radius:0px;
+}
+
+.index-menu-nav ul{
+	float: left;
+	margin: 0px 10px 0px 10px;
+	position: relative;
+	list-style: none;
+}
+
+.index-menu-nav ul li{
+	float: left;
+	line-height:20px;
+	list-style-type: none;
+	text-align:  -webkit-match-parent;
+	display: list-item;
+}
+
+.index-menu-nav ul li a{
+	margin: 0px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	padding: 10px 50px 10px;
+	float: none;
+	display: block;
+}
+.index-menu-nav .nav .active > a, .index-menu-nav .nav li > a:hover {
+    background-color: #ff3674;
+}
+
+
+/** 首页栏目内容 **/
+
+.content-warp{
+	overflow: hidden;
+	width: 1200px;
+	margin-top: 12px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.content-warp .topic{
+
+	border-bottom: 1px solid #e6e6e6;
+
+}
+.content-warp .box{
+
+	padding: 0px;
+	margin: 5px;
+}
+.content-warp .box li{
+
+	list-style-type: none;
+	float: left;
+	width: 180px;
+	margin-top: 8px;
+	margin-left: 12px;
+	padding: 2px;
+	border: 1px solid #f5f5f5;
+}
+
+.content-warp .box li .prop-row{
+	padding: 3px;
+
+}
+
+.content-warp .box li .prop-row .price{
+	font-weight: 700;
+	color: #ff3674;
+	position: relative;
+	left: -3px;
+	line-height: 22px;
+
+}
+.content-warp .box li .title{
+	padding: 3px;
+}
+
+.content-warp .box li .pic-box img{
+	width: 180px;
+	height: 225px;
+}
+
+
+
+.topic-icon1{
+	overflow: hidden;
+	width: 300px;
+	background: url("http://i.meilishuo.net/css/images/welcome/wel_ico1.png") no-repeat;
+	height: 26px
+}
+.topic-icon2{
+	overflow: hidden;
+	background-position: 0 -238px;
+	width: 300px;
+	background: url("http://i.meilishuo.net/css/images/welcome/wel_ico1.png") no-repeat;
+	height: 26px
+}
+
+
+

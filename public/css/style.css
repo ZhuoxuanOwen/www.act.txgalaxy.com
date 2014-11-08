@@ -167,6 +167,31 @@ a{
 	width: 100%;
 }
 
+
+/** 分类页面店铺推荐 **/
+
+.shoplist-warp{
+	overflow: hidden;
+	width: 1200px;
+	margin-top: 32px;
+	margin-right: auto;
+	margin-left: auto;
+}
+ 
+ 
+.list-warp .box{
+	padding: 0px;
+	margin: 5px;
+}
+.list-warp .box li{
+	list-style-type: none;
+	float: left;
+	width: 210px;
+	margin-right: 26px;
+	height: 320px;
+}
+
+
 /** leimu **/
 .list-warp{
 	overflow: hidden;
@@ -202,16 +227,24 @@ a{
 }
 
 .list-warp .box li .prop-row{
+	margin-top: 12px;
 	padding: 3px;
 }
 
 .list-warp .box li .prop-row .price{
+	font-size: 14px;
 	font-weight: 700;
 	color: #ff3674;
 	position: relative;
-	left: -3px;
+	padding-top: 3px;
 	line-height: 22px;
 }
+.list-warp .box li .prop-row .oldprice{
+	display: inline;
+	float: right;
+	text-decoration:line-through;
+}
+
 .list-warp .box li .title{
 	padding: 3px;
 }

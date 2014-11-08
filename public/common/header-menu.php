@@ -2,22 +2,40 @@
     <div class="ct">
         <div class="header-nav">
             <div class="col-sm-2" style="padding-left:26px;">
-                <img src="$!{rc.contextPath}/assets/portal/image/logo.png"/>
+               
             </div>
             <div class="col-sm-10">
                 <ul class="nav">
-                    <li class="active"><a href="/">首页</a></li>
-                    <li><a id="nav-oversea" href="/cateact/nvzhuang.php">女装</a></li>
-                    <li><a href="/#m-s-title">男装</a></li>
-                    <li><a href="/#m-promotions-msg">内衣</a></li>
-                    <li><a href="/client" target="_blank">饰品</a></li>
-                    <li><a id="nav-support" href="/support" target="_blank">母婴</a></li>
-                    <li><a id="nav-support" href="/support" target="_blank">美妆</a></li>
-                    <li><a id="nav-support" href="/support" target="_blank">家装</a></li>
-                    <li><a id="nav-support" href="/support" target="_blank">居家</a></li>
-                    <li><a id="nav-support" href="/support" target="_blank">电器</a></li>
-                    <li><a id="nav-support" href="/support" target="_blank">箱包</a></li>
-                    <li><a id="nav-support" href="/support" target="_blank">户外</a></li>
+                   
+                    <li <?php if($pageNav =='nvzhuang')echo " class='active'" ;?> >
+                        <a id="nav-oversea" href="/searchlist.php?cat=nvzhuang">女装</a>
+                    </li>
+                    <li <?php if($pageNav =='nanzhuang')echo " class='active'" ;?>>
+                        <a href="/searchlist.php?cat=nanzhuang">男装</a>
+                    </li>
+                    <li <?php if($pageNav =='meizhuang')echo " class='active'" ;?>>
+                        <a  href="/searchlist.php?cat=meizhuang" >美妆</a>
+                    </li>
+                    <li <?php if($pageNav =='muying')echo " class='active'" ;?>>
+                        <a href="/searchlist.php?cat=muying" >母婴</a>
+                    </li>
+                    <li <?php if($pageNav =='shipin')echo " class='active'" ;?>>
+                        <a href="/searchlist.php?cat=shipin">饰品</a>
+                    </li>
+                    <li <?php if($pageNav =='jiazhuang')echo " class='active'" ;?>>
+                        <a id="nav-support" href="/searchlist.php?cat=jiazhuang" >家装</a>
+                    </li>
+                    <li <?php if($pageNav =='shenghuo')echo " class='active'" ;?>>
+                        <a id="nav-support" href="/searchlist.php?cat=shenghuo" >生活</a>
+                    </li>
+                    <li <?php if($pageNav =='dianqi')echo " class='active'" ;?>>
+                        <a href="/searchlist.php?cat=dianqi" >电器</a>
+                    </li>
+                   
+                    <li <?php if($pageNav =='chihuo')echo " class='active'" ;?>>
+                        <a href="/searchlist.php?cat=chihuo" >吃货</a>
+                    </li>
+                     
                 </ul>
             </div>
         </div>

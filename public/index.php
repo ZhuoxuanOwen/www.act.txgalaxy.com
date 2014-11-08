@@ -1,124 +1,362 @@
-<?php
+<?php require_once('common/header.php') ?>
+<!-- 头部吊顶
+<div class="row-fluid">
+</div> -->
+<!-- 头部工具条 -->
+<?php require_once('common/header-menu.php') ?>
+<div class="container-fluid">
+<!-- Banner轮播图
+<div class="row-fluid index-section">
+    <div class="col-sm-8 section-banner">-->
+        <!-- 轮播组件 
+        <div id="index-slide-banner" class="slideBox">
+            <ul class="items">
+                <li><a href="go/to/your/url.html" title="领红包啦"><img src="http://s6.mogucdn.com/pic/141031/muzi_ieydonztme2tizbtmqytambqmmyde_785x500.jpg"></a></li>
+                <li><a href="go/to/your/url.html" title="买手教你如何省钱"><img src="http://s7.mogucdn.com/pic/141031/zixin_ieydkmldgfstkzbtmqytambqmmyde_785x500.jpg"></a></li>
+                <li><a href="go/to/your/url.html" title="美妆集合"><img src="http://s6.mogucdn.com/pic/141031/gongzi_ieygeyzymeywmyztmqytambqgiyde_785x500.jpg"></a></li>
+                <li><a href="go/to/your/url.html" title="美妆集合"><img src="http://s6.mogucdn.com/pic/141031/gongzi_ieygeyzymeywmyztmqytambqgiyde_785x500.jpg"></a></li>
+                <li><a href="go/to/your/url.html" title="美妆集合"><img src="http://s6.mogucdn.com/pic/141031/gongzi_ieygeyzymeywmyztmqytambqgiyde_785x500.jpg"></a></li>
+            </ul>
+        </div>-->
+        <!-- 轮播组件end
+    </div>
+    <div class="col-sm-4 section-nav" >
+        <div class="right-tips">
+            <h4>最新关注</h4>
+            <div class="tp-span-f">
+                注册成为新人~~ 玩游戏抽奖啦~ 百发百中，不中都不行啦~~
+            </div>
+            <div class="tp-span">
+                双11玩法攻略，败家指南~ 你绝对不知道的秘密 ~
+            </div>
+            <div class="tp-span">
+                男票生日神马~
+            </div>
+            <div class="tp-span">
+                你猜啊~
+            </div>
+            <div class="tp-span">
+                最新活动
+            </div>
+            <div class="tp-span">
+                最新分享
+            </div>
+        </div>
+        <div class="right-buttom-banner">
+            <ul>
+                <li>最热专辑</li>
+                <li>时尚榜单</li>
+                <li>今日团购</li>
+                <li>美丽日记</li>
+                <li>TOP200</li>
+        </div>
+    </div>
+</div> -->
+<!-- 内容商品区域 -->
+<div class="row-fluid content-warp">
+    <div class="topic">
+        <span class="topic-icon">最新精选推荐</span>
+    </div>
+    <ul class="box">
+        <li>
+            <div class="pic-box">
+                <img src="http://gi2.mlist.alicdn.com/bao/uploaded/i2/TB1iLcdGXXXXXc8XpXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi1.mlist.alicdn.com/bao/uploaded/i1/TB1d6pKFVXXXXaOXFXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi4.mlist.alicdn.com/bao/uploaded/i4/TB1hab1GFXXXXaZXFXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi2.mlist.alicdn.com/bao/uploaded/i2/TB1cKHMGXXXXXcPXpXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://s7.mogucdn.com/pic/141015/u3zuc_ieyginjtgjrggodfmmytambqmeyde_220x330.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+    </ul>
+</div>
+<!-- 配饰 -->
+<div class="row-fluid content-warp">
+    <div class="topic">
+        <span class="topic-icon">Me友推荐</span>
+    </div>
+    <ul class="box">
+        <li>
+            <div class="pic-box">
+                <img src="http://gi2.mlist.alicdn.com/bao/uploaded/i2/TB1.ZL5GFXXXXceXXXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi1.mlist.alicdn.com/bao/uploaded/i1/TB1d6pKFVXXXXaOXFXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi4.mlist.alicdn.com/bao/uploaded/i4/TB1hab1GFXXXXaZXFXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi2.mlist.alicdn.com/bao/uploaded/i2/TB1cKHMGXXXXXcPXpXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://s7.mogucdn.com/pic/141015/u3zuc_ieyginjtgjrggodfmmytambqmeyde_220x330.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
 
-/**
- * The directory in which your application specific resources are located.
- * The application directory must contain the bootstrap.php file.
- *
- * @link http://kohanaframework.org/guide/about.install#application
- */
-$application = '../application';
+        </li>
+    </ul>
+</div>
+<!-- 内容商品区域 -->
+<div class="row-fluid content-warp">
+    <div class="topic">
+        <span class="topic-icon">精选配饰</span>
+    </div>
+    <ul class="box">
+        <li>
+            <div class="pic-box">
+                <img src="http://gi2.mlist.alicdn.com/bao/uploaded/i2/TB1iLcdGXXXXXc8XpXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi1.mlist.alicdn.com/bao/uploaded/i1/TB1d6pKFVXXXXaOXFXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi4.mlist.alicdn.com/bao/uploaded/i4/TB1hab1GFXXXXaZXFXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi2.mlist.alicdn.com/bao/uploaded/i2/TB1cKHMGXXXXXcPXpXXXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://s7.mogucdn.com/pic/141015/u3zuc_ieyginjtgjrggodfmmytambqmeyde_220x330.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
 
-/**
- * The directory in which your modules are located.
- *
- * @link http://kohanaframework.org/guide/about.install#modules
- */
-$modules = '../modules';
+        </li>
 
-/**
- * The directory in which the Kohana resources are located. The system
- * directory must contain the classes/kohana.php file.
- *
- * @link http://kohanaframework.org/guide/about.install#system
- */
-$system = '../system';
+    </ul>
 
-/**
- * The default extension of resource files. If you change this, all resources
- * must be renamed to use the new extension.
- *
- * @link http://kohanaframework.org/guide/about.install#ext
- */
-define('EXT', '.php');
+</div>
+<!-- 内容商品区域 -->
+<div class="row-fluid content-warp">
+    <div class="topic">
+        <span class="topic-icon">手作专区</span>
+    </div>
+    <ul class="box">
+        <li>
+            <div class="pic-box">
+                <img src="http://gi3.mlist.alicdn.com/bao/uploaded/i3/T1yBhJFFddXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi1.mlist.alicdn.com/bao/uploaded/i1/2086545091/TB2YtXGaXXXXXaUXXXXXXXXXXXX_!!2086545091.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi1.mlist.alicdn.com/bao/uploaded/i1/T1NxzJFU8XXXXXXXXX_!!0-item_pic.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://gi2.mlist.alicdn.com/bao/uploaded/i2/786928508/TB2plToXVXXXXaxXpXXXXXXXXXX_!!786928508.jpg_b.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+        </li>
+        <li>
+            <div class="pic-box">
+                <img src="http://s7.mogucdn.com/pic/141015/u3zuc_ieyginjtgjrggodfmmytambqmeyde_220x330.jpg">
+            </div>
+            <div class="prop-row" >
+                <div class="price">￥123.90</div>
+            </div>
+            <div class="title">
+                春秋韩版修身夏高腰弹力牛仔短裤卷边大码休闲排扣显瘦热裤子女潮
+            </div>
+
+        </li>
+    </ul>
+
+</div>
+</div>
+<!-- 页尾 -->
+<div class="row-fluid index-footer" >
+    <div class="footer-container">
+        <div class="index-footer-section col-sm-3" style="border:none;">
+            <h4>关于我们</h4>
+            <div class="content">
+                <a>关于我们</a>
+                <a>帮助中心</a>
+                <a>免责声明</a>
+            </div>
+        </div>
+        <div class="index-footer-section col-sm-3">
+            <h4>站内导航</h4>
+            <div class="content">
+                <a>关于我们</a>
+                <a>帮助中心</a>
+                <a>免责声明</a>
+            </div>
+        </div>
+        <div class="index-footer-section col-sm-3">
+            <h4>关注我们</h4>
+            <div class="content">
+                <a>关于我们</a>
+                <a>帮助中心</a>
+                <a>免责声明</a>
+            </div>
+        </div>
+        <div class="index-footer-section col-sm-3">
+            <h4>友情链接</h4>
+            <div class="content">
+                <a href="http://www.net-a-porter.com/" target="_bank">NetAPorter</a>
+                <a href="http://www.meilishuo.com/" target="_bank">美丽说</a>
+                <a>免责声明</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-/**
- * Set the PHP error reporting level. If you set this in php.ini, you remove this.
- * @link http://www.php.net/manual/errorfunc.configuration#ini.error-reporting
- *
- * When developing your application, it is highly recommended to enable notices
- * and strict warnings. Enable them by using: E_ALL | E_STRICT
- *
- * In a production environment, it is safe to ignore notices and strict warnings.
- * Disable them by using: E_ALL ^ E_NOTICE
- *
- * When using a legacy application with PHP >= 5.3, it is recommended to disable
- * deprecated notices. Disable with: E_ALL & ~E_DEPRECATED
- */
-error_reporting(E_ALL | E_STRICT);
+<script type="text/javascript">
 
-/**
- * End of standard configuration! Changing any of the code below should only be
- * attempted by those with a working knowledge of Kohana internals.
- *
- * @link http://kohanaframework.org/guide/using.configuration
- */
+    $(document).ready(function (){
+        //banner 轮播
+        $('#index-slide-banner').slideBox();
 
-// Set the full path to the docroot
-define('DOCROOT', realpath(dirname(__FILE__)).DIRECTORY_SEPARATOR);
-
-// Make the application relative to the docroot, for symlink'd index.php
-if ( ! is_dir($application) AND is_dir(DOCROOT.$application))
-	$application = DOCROOT.$application;
-
-// Make the modules relative to the docroot, for symlink'd index.php
-if ( ! is_dir($modules) AND is_dir(DOCROOT.$modules))
-	$modules = DOCROOT.$modules;
-
-// Make the system relative to the docroot, for symlink'd index.php
-if ( ! is_dir($system) AND is_dir(DOCROOT.$system))
-	$system = DOCROOT.$system;
-
-// Define the absolute paths for configured directories
-define('APPPATH', realpath($application).DIRECTORY_SEPARATOR);
-define('MODPATH', realpath($modules).DIRECTORY_SEPARATOR);
-define('SYSPATH', realpath($system).DIRECTORY_SEPARATOR);
-
-define('CMSPATH', '/datax/cms/');//cms path
-
-// Clean up the configuration vars
-unset($application, $modules, $system);
-
-if (file_exists('install'.EXT))
-{
-	// Load the installation check
-	return include 'install'.EXT;
-}
-
-/**
- * Define the start time of the application, used for profiling.
- */
-if ( ! defined('KOHANA_START_TIME'))
-{
-	define('KOHANA_START_TIME', microtime(TRUE));
-}
-
-/**
- * Define the memory usage at the start of the application, used for profiling.
- */
-if ( ! defined('KOHANA_START_MEMORY'))
-{
-	define('KOHANA_START_MEMORY', memory_get_usage());
-}
-
-// Bootstrap the application
-require APPPATH.'bootstrap'.EXT;
-
-if (PHP_SAPI == 'cli') // Try and load minion
-{
-	class_exists('Minion_Task') OR die('Please enable the Minion module for CLI support.');
-	set_exception_handler(array('Minion_Exception', 'handler'));
-
-	Minion_Task::factory(Minion_CLI::options())->execute();
-}
-else
-{
-	/**
-	 * Execute the main request. A source of the URI can be passed, eg: $_SERVER['PATH_INFO'].
-	 * If no source is specified, the URI will be automatically detected.
-	 */
-	echo Request::factory(TRUE, array(), FALSE)
-		->execute()
-		->send_headers(TRUE)
-		->body();
-}
+    });
+</script>
+</body>
+</html>
